@@ -102,7 +102,6 @@ holiday_hash.each do |season, data|
   end
   end
 end
-new_array.flatten
       puts "new array = #{new_array.flatten}"
 end
 
