@@ -71,7 +71,7 @@ def all_winter_holiday_supplies(holiday_hash)
     if(season == :winter)
     data.each do |holiday, items|
       items.each do |item|
-        arr << item.to_s.split
+        arr << item.to_s
       end
     end
   end
