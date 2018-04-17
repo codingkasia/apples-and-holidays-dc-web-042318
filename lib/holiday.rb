@@ -98,6 +98,7 @@ holiday_hash.each do |season, data|
       puts "what the fuck #{holiday}"
     end 
   end
+  end
 end
 end
 
