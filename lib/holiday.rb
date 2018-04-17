@@ -99,11 +99,11 @@ holiday_hash.each do |season, data|
       new_array << holiday.to_s.split
       #puts "#{holiday.to_s.split}"
     end 
-    new_array.flatten
-      puts "new array = #{new_array}"
   end
   end
 end
+new_array.flatten
+      puts "new array = #{new_array}"
 end
 
 
