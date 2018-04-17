@@ -72,7 +72,8 @@ def all_winter_holiday_supplies(holiday_hash)
     data.each do |holiday, items|
       items.each do |item|
         puts item
-        arr << item
+        arr << item.to_s
+        puts arr
       end
     end
   end
