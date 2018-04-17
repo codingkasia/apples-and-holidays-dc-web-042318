@@ -69,7 +69,7 @@ def all_winter_holiday_supplies(holiday_hash)
 holiday_hash.each do |season, data|
   if(season == :winter)
     data.each do |holiday, items|
-      puts items.to_a 
+      puts items.to_s.split 
     end 
 end
 end
