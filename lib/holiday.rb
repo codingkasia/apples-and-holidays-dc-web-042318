@@ -89,7 +89,7 @@ holiday_hash.each do |season, holiday|
     if(holiday.to_s.include? ("_"))
     holiday = holiday.to_s.tr('_', ' ')  
   end
-  puts "  #{holiday.to_s.capitalize}: #{item.join(", ")}"
+  puts "  #{holiday.to_s.split.map(&:capitalize).join(' ')}: #{item.join(", ")}"
 end
 end
 end
