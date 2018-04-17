@@ -103,7 +103,7 @@ holiday_hash.each do |season, data|
   end
 end
 new_array.flatten
-      puts "new array = #{new_array}"
+      puts "new array = #{new_array.flatten}"
 end
 
 
