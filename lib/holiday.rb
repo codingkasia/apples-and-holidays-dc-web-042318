@@ -98,7 +98,7 @@ holiday_hash.each do |season, data|
     if(item === "BBQ")
       new_array << holiday.to_s.split
       puts "new array = #{new_array}"
-      puts "#{holiday.to_s.split}"
+      #puts "#{holiday.to_s.split}"
     end 
   end
   end
