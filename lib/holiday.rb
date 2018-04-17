@@ -102,8 +102,9 @@ holiday_hash.each do |season, data|
   end
 end 
 new_array.flatten!
+new_array.map! {|item| item.to_sym}
 
-      puts "new array = #{new_array.map {|item| item.to_sym}}"
+      puts "new array = #{new_array}"
 end
 
 
