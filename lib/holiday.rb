@@ -24,14 +24,12 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  decoration = []
 holiday_hash.collect do |season, data|
   if(season == :winter)
     data.collect do |holiday, decoration|
-      decoration << supply.to_s.split
+      decoration << supply
     end
   end
-  decoration.flatten!
 end
 holiday_hash
 end
