@@ -31,6 +31,7 @@ holiday_hash.collect do |season, data|
       decoration << supply.to_s.split
     end
   end
+  decoration.flatten!
 end
 holiday_hash
 end
