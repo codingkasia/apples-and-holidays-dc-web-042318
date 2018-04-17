@@ -78,8 +78,7 @@ def all_winter_holiday_supplies(holiday_hash)
     end
   end
 end
-puts "end at function #{arr}"
-arr.flatten!
+arr
 end
 
 def all_supplies_in_holidays(holiday_hash)
