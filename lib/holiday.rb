@@ -95,7 +95,7 @@ holiday_hash.each do |season, data|
   data.each do |holiday, items|
     items.each do |item|
     if(item === "BBQ")
-      puts "what the fuck #{holiday}"
+      puts "#{holiday.to_s.split}"
     end 
   end
   end
